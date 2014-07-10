@@ -16,9 +16,9 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#000000",
+            "color3":"#fcdf00",
             "color4":"#000000",
-            "color5":"#808080",
+            "color5":"#000000",
             "color6":"#000000",
             "color7":"#DADADA"
         },
@@ -62,7 +62,7 @@
     "fontSwatch": {
        "title": "Oxygen",
         "font1": {
-            "font-family": "\"Open sans\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "28px",
             "font-weight": "300",
             "line-height": "38px",
@@ -70,7 +70,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Open sans\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "24px",
             "font-weight": "300",
             "line-height": "32px",
@@ -78,7 +78,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Open sans\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "18px",
             "font-weight": "700",
             "line-height": "24px",
@@ -86,7 +86,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Open sans\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "16px",
             "font-weight": "300",
             "line-height": "30px",
@@ -123,27 +123,27 @@
             "background-color-hover": "@color-swatch7"
         },
         "font8": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "56px",
-            "font-weight": "300",
+            "font-weight": "700",
             "line-height": "70px",
-            "color": "@color-swatch3",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Oxygen\", \"Helvetica\", Arial, sans-serif",
-            "font-size": "14px",
-            "font-weight": "300",
-            "line-height": "22px",
-            "color": "@color-swatch3",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-size": "36px",
+            "font-weight": "400",
+            "line-height": "46px",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Merriweather\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "28px",
             "font-weight": "700",
             "line-height": "36px",
-            "color": "@color-swatch1",
+            "color": "@color-swatch3",
             "letter-spacing": "inherit"
         }
     }
