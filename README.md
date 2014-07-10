@@ -1,4 +1,4 @@
-construct
-=========
+Construct
+=======
 
-Building Trade eNom Template
+eNom Building Trades Template

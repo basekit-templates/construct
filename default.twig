@@ -1,0 +1,44 @@
+
+{% extends "layout.twig" %}
+
+{% block content %}
+<div class="bk-pt-default">
+    <header class="bk-header clearfix">
+          <div class="headerwrapper">
+            <div class="logo-container">
+                {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+                {{widget('companyname', 'companyname', {"business": "ADVENTURE"})|raw}}
+            </div>
+            <div class="textwidget">
+                {{widget('content', 'textwidgetbox1', {content: '<span>"Lorem ipsum dolor sit amet,     consectetur adipisicing elit, sed do eiusmodtempor incididunt ut"</span>', lines:     'all'})|raw}}
+            </div>
+           </div>
+      </header>
+    
+    <div class="navbar clearfix">
+        <div class="left">
+            {{widget('extendednavigation', 'navigationheader', {"align":"left"})|raw}}
+        </div>
+    </div>
+    
+    <div class="page-wrap">
+        <div class="headerwrapper">
+            <div class="mainzone headerwrapper">
+                {{zone('main')|raw}}
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bk-footer clearfix">
+          <div class="headerwrapper">
+              <div class="left">
+                  {{widget('companyname', 'thisunqiuewidgetname', {"business": "profile"})|raw}}
+              </div>
+              <div class="right">
+                  {{widget('profile', 'thisunqiuewidgetname1', { 'profileType':'socialicons',     'socialicons':'form', 'refreshtime':'1800000'})|raw}}
+              </div>
+          </div>
+    </footer>
+</div>
+
+{% endblock %}
