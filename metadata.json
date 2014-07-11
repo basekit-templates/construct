@@ -108,16 +108,16 @@
             "line-height": "26px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit",
-            "color-hover": "@color-swatch1",
-            "background-color": "@color-swatch7",
+            "color-hover": "@color-swatch4",
+            "background-color": "@color-swatch4",
             "background-color-hover": "@color-swatch2"
          },
         "font7": {
-            "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "14px",
             "font-weight": "300",
             "line-height": "24px",
-            "color": "@color-swatch1",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit",
             "background-color": "@color-swatch3",
             "background-color-hover": "@color-swatch7"
