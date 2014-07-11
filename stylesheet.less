@@ -33,6 +33,10 @@ body {
 	background-image: image('/images/background.png');
 }
 
+a {
+	color:@font-swatch4-color;
+}
+
 /*	===============================
 	Default Page
 	=============================== */
@@ -223,7 +227,7 @@ header.bk-header {
 .navbar {
 	background-color: @color-swatch3;
 	position: relative;
-	border-top: 5px solid @color-swatch4;
+	border-bottom: 5px solid black;
 	.left {
 		float:left;
 	}
@@ -295,7 +299,7 @@ input,
 .signupform fieldset input, 
 .widget.contactform form fieldset textarea, 
 .widget.contactform form fieldset input  {
-	background-color:@color-swatch7;
+	background-color:@color-swatch1;
     text-indent:3px;
     border-radius:0;
     color:@font-swatch6-color;
@@ -425,7 +429,7 @@ textarea.message {
 	padding: 0;
 	margin: 0;
 	padding: 20px 20px 0px 20px;
-	background-color:@color-swatch7;
+	background-color:@color-swatch1;
     border-radius:0;
     border:1px solid @color-swatch4;
 }
@@ -742,6 +746,7 @@ footer .widget.profile .bk-profile-socialicons span a {
 	}
 	.textwidget {
 		width:100%;
+		text-align:center;
 	}
 	.widget.profile span, .widget.profile a, .widget.profile p {
 		margin:0px auto;
