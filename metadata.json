@@ -20,7 +20,7 @@
             "color4":"#000000",
             "color5":"#000000",
             "color6":"#000000",
-            "color7":"#DADADA"
+            "color7":"#F5F5F5"
         },
         "Swatch 2": {
             "color1":"#ffffff",
@@ -108,7 +108,7 @@
             "line-height": "26px",
             "color": "@color-swatch1",
             "letter-spacing": "inherit",
-            "color-hover": "@color-swatch1",
+            "color-hover": "@color-swatch4",
             "background-color": "@color-swatch7",
             "background-color-hover": "@color-swatch2"
          },
