@@ -16,51 +16,51 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#fcdf00",
+            "color3":"#EED40B",
             "color4":"#000000",
             "color5":"#000000",
             "color6":"#000000",
-            "color7":"#D6D6D6"
+            "color7":"#EED40B"
         },
         "Swatch 2": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#841c2f",
+            "color3":"#34A807",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#841c2f",
-            "color7":"#DADADA"
+            "color7":"#34A807"
         },
         "Swatch 3": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#4F7391",
+            "color3":"#CABBBF",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#4F7391",
-            "color7":"#DADADA"
+            "color7":"#CABBBF"
         },
         "Swatch 4": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#73AD5C",
+            "color3":"#FC0808",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#73AD5C",
-            "color7":"#DADADA"
+            "color7":"#FC0808"
         },
         "Swatch 5": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#4BA5A1",
+            "color3":"#ffffff",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#4BA5A1",
-            "color7":"#DADADA"
+            "color7":"#ffffff"
         }
     },
     "fontSwatch": {
-       "title": "Oxygen",
+       "title": "Alfa Slab One",
         "font1": {
             "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "28px",
@@ -143,7 +143,7 @@
             "font-size": "28px",
             "font-weight": "700",
             "line-height": "36px",
-            "color": "@color-swatch3",
+            "color": "@color-swatch7",
             "letter-spacing": "inherit"
         }
     }
