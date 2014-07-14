@@ -42,7 +42,7 @@ a {
 	=============================== */
 
 .bk-pt-default .navbar {
-	background-color: @color-swatch7;
+	background-color: @color-swatch3;
 	margin-top:0;
 }
 
@@ -52,19 +52,6 @@ a {
 
 .bk-pt-default .widget.extendednavigation {
 	margin-top:0;
-}
-
-.bk-pt-default .widget .extendednavigation ul li a, .bk-pt-default .widget .extendednavigation ul > li.folder > .text {
-	color:@font-swatch4-color;
-}
-
-
-.bk-pt-default .widget .extendednavigation ul li a:hover {
-	color:@font-swatch6-color;
-}
-
-.bk-pt-default .widget .extendednavigation ul li.folder:after {
-	border-top-color:@color-swatch3;
 }
 
 /*	===============================
@@ -167,6 +154,11 @@ header.bk-header {
 
 .widget.feature .feature-bgimg .content button {
 	box-shadow: none;
+	padding:15px;
+}
+
+.widget.feature .feature-bgimg .content button:hover {
+	color:@font-swatch7-color;
 }
 
 
@@ -216,10 +208,6 @@ header.bk-header {
 	color:@font-swatch5-color;
 }
 
-.widget.feature .feature-bgimg .content button:hover {
-	color:@font-swatch7-color;
-}
-
 /*	===============================
 	Extended Navigation
 	=============================== */
@@ -227,7 +215,6 @@ header.bk-header {
 .navbar {
 	background-color: @color-swatch3;
 	position: relative;
-	border-bottom: 5px solid black;
 	.left {
 		float:left;
 	}
@@ -282,12 +269,15 @@ header.bk-header {
 
 .widget .extendednavigation ul li a:hover {
 	background-color:@color-swatch4;
-	color:@font-swatch7-color;
+	color:#ffffff;
 }
 
 .widget .extendednavigation ul li.folder .text:hover {
-	background-color:@color-swatch3;
-	color:@font-swatch4-color;
+	color:#ffffff;
+}
+
+.widget .extendednavigation ul > li.folder .text:hover {
+	color:@font-swatch6-color-hover;
 }
 
 /*	===============================
@@ -303,14 +293,13 @@ input,
     text-indent:3px;
     border-radius:0;
     color:@font-swatch6-color;
-    border:1px solid @color-swatch4;
+    border:1px solid @color-swatch7;
 }
 
 .widget.ecomcheckout .checkout-order-button, 
 .contactform button.btn, 
 .widget.profile form button, 
-.signupform fieldset button, 
-.blog-search-submit-button, 
+.signupform fieldset button,  
 .widget.button button, button.btn {
 	background-color:@color-swatch3;
 	border-bottom: 3px solid @color-swatch4;
@@ -329,25 +318,28 @@ input,
 .widget.socialicons span a:hover, 
 .widget.paypalbuynow .widget.button.paypal:hover, 
 .widget.tweet a:hover, 
-.widget.ecombasket .ecombasket-pull:hover, 
-.blog-search-submit-button:hover, 
-button.btn:hover {
-	background-color:lighten(@color-swatch4,10%)!important;
+.widget.ecombasket .ecombasket-pull:hover,
+button.btn:hover, .contactform button.btn:hover {
+	background-color:@color-swatch4!important;
+	color:#ffffff!important;
+}
+
+.contactform button.btn {
+	padding:15px;
 }
 
 .widget.profile form {
 	margin: 1em 0;
-	background-color: @color-swatch4;
 	padding: 20px;
 	width: 280px;
 }
 
 .widget.profile form button {
-	padding: 8px 14px 6px;
+	padding: 10px 14px 6px;
 }
 
 .btn {
-	padding: 5px 14px 10px;
+	padding: 12px 15px;
 }
 
 .widget.profile span, .widget.profile a, .widget.profile p {
@@ -361,7 +353,7 @@ button.btn:hover {
 }
 
 .signupform fieldset button {
-	padding: 6px 14px 5px 14px;
+	padding: 8px 14px 6px 14px;
 	margin: 5px 0px;
 }
 
@@ -431,7 +423,7 @@ textarea.message {
 	padding: 20px 20px 0px 20px;
 	background-color:@color-swatch1;
     border-radius:0;
-    border:1px solid @color-swatch4;
+    border:1px solid @color-swatch7;
 }
 
 .twitter ul li a {
