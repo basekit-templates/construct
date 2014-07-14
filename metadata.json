@@ -1,13 +1,13 @@
 {
-	"name":"adventure",
-	"thumbnail":"adventure.png",
-	"screenshot":"adventure.png",
-	"templateType":"Standard Template",
+	"name":"construct",
+	"thumbnail":"construct.png",
+	"screenshot":"construct.png",
+	"templateType":"Building Trades Template",
         "pageTypes": [
         "home"
     ],
     "tags": {
-    "en": ["clean", "technology", "white", "dark", "modern", "blog", "feature", "professional", "simple", "sans serif"],
+    "en": ["bold", "technology", "building", "bright", "modern", "construction", "feature", "professional", "sans serif"],
     "es": ["minimalista", "limpio", "fotografico", "vintage", "moderno", "oscuro", "estudio", "website", "creativo", "elegante", "profesional", "unico", "comunicacion", "sans-serif"],
     "br": ["minimalista", "limpo", "fotografia", "vintage", "moderno", "escuro", "estúdio", "website", "criativo", "elegante", "profissional", "único", "mídia", "sans-serif"]
     },
@@ -89,7 +89,7 @@
             "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
             "font-size": "16px",
             "font-weight": "300",
-            "line-height": "30px",
+            "line-height": "26px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
