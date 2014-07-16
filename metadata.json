@@ -25,11 +25,11 @@
         "Swatch 2": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#34A807",
+            "color3":"#61DB32",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#841c2f",
-            "color7":"#34A807"
+            "color7":"#61DB32"
         },
         "Swatch 3": {
             "color1":"#ffffff",
@@ -43,26 +43,26 @@
         "Swatch 4": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#FC0808",
+            "color3":"#BE1919",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#73AD5C",
-            "color7":"#FC0808"
+            "color7":"#BE1919"
         },
         "Swatch 5": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#ffffff",
+            "color3":"#999EBE",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#4BA5A1",
-            "color7":"#ffffff"
+            "color7":"#999EBE"
         }
     },
     "fontSwatch": {
        "title": "Alfa Slab One",
         "font1": {
-            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Oswald\", Arial, sans-serif",
             "font-size": "28px",
             "font-weight": "300",
             "line-height": "38px",
@@ -70,7 +70,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Oswald\", Arial, sans-serif",
             "font-size": "24px",
             "font-weight": "300",
             "line-height": "32px",
@@ -78,7 +78,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Oswald\", Arial, sans-serif",
             "font-size": "18px",
             "font-weight": "700",
             "line-height": "24px",
@@ -86,7 +86,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Oswald\", Arial, sans-serif",
             "font-size": "16px",
             "font-weight": "300",
             "line-height": "26px",
@@ -113,7 +113,7 @@
             "background-color-hover": "@color-swatch2"
          },
         "font7": {
-            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Oswald\", Arial, sans-serif",
             "font-size": "14px",
             "font-weight": "700",
             "line-height": "24px",
@@ -139,7 +139,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Alfa Slab One\", \"Helvetica\", Arial, sans-serif",
+            "font-family": "\"Alfa Slab One\", \"Oswald\", Arial, sans-serif",
             "font-size": "28px",
             "font-weight": "700",
             "line-height": "36px",
