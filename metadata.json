@@ -38,25 +38,25 @@
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#4F7391",
-            "color7":"#CABBBF"
+            "color7":"#EED40B"
         },
         "Swatch 4": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#BE1919",
+            "color3":"#DA3030",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#73AD5C",
-            "color7":"#BE1919"
+            "color7":"#DA3030"
         },
         "Swatch 5": {
             "color1":"#ffffff",
             "color2":"#dadada",
-            "color3":"#999EBE",
+            "color3":"#8F9CEE",
             "color4":"#000000",
             "color5":"#808080",
             "color6":"#4BA5A1",
-            "color7":"#999EBE"
+            "color7":"#EED40B"
         }
     },
     "fontSwatch": {
