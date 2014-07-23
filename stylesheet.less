@@ -64,8 +64,14 @@ header.bk-header {
 }
 
 .pattern {
-	background-image: image('/images/border-image.png');
-	height:6px;
+	background: repeating-linear-gradient(
+  -37deg,
+  @color-swatch3,
+  @color-swatch3 10px,
+  #000 10px,
+  #000 20px
+);
+	padding:3px 0px;
 }
 
 .widget {
@@ -90,7 +96,6 @@ header.bk-header {
 .textwidget {
 	display: inline-block;
 	width: 60%;
-	text-align:right;
 	span {
 		font-family:@font-swatch6-font-family; 
 		font-weight: @font-swatch6-font-weight; 
