@@ -696,7 +696,7 @@ a.ecombasket-checkout-link {
             -webkit-box-shadow: 2px 2px 0 1px #D9D9D9;
             box-shadow: 2px 2px 0 1px #D9D9D9;
             img {
-            	width:100%;
+            	display:none;
             }
         }
     }
@@ -852,17 +852,6 @@ textarea.message {
 
 .widget.profile .bk-profile-socialicons span a:hover {
 	background-color:@color-swatch3;
-}
-
-.bk-profile-strapline,
-.bk-profile-email,
-.bk-profile-phone,
-.bk-profile-headline,
-.bk-profile-strapline,
-.bk-profile-companydescription,
-.bk-profile-business,
-.bk-profile-business {
-	text-align:right;
 }
 
 .contactform label {
@@ -1063,12 +1052,20 @@ footer .widget.profile .bk-profile-socialicons span a {
 	float:none;
 }
 
-.bk-profile-address {
-	float:right;
+.bk-profile-address
+.bk-profile-strapline,
+.bk-profile-email,
+.bk-profile-phone,
+.bk-profile-headline,
+.bk-profile-strapline,
+.bk-profile-companydescription,
+.bk-profile-business,
+.bk-profile-copyright {
+	text-align:right;
 }
 
-.bk-profile-address p {
-	float:none!important;
+.bk-profile-socialicons, .bk-profile-companydescription, .bk-profile-headline, .bk-profile-phone, .bk-profile-business {
+	float:right;
 }
 
 /*	===============================
