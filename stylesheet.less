@@ -48,7 +48,7 @@ h1,h2,h3,h4, label, .widget .extendednavigation > ul > li > a,
 	=============================== */
 
 .bk-pt-default .navbar {
-	background-color: @color-swatch3;
+	background-color: @color-swatch4;
 	margin-top:0;
 }
 
@@ -164,7 +164,8 @@ header.bk-header {
 }
 
 .widget.feature .feature-bgimg .content button:hover {
-	color:@font-swatch7-color;
+	color:@font-swatch6-color-hover!important;
+	background-color:@color-swatch4!important;
 }
 
 
@@ -196,11 +197,15 @@ header.bk-header {
         background-color:@color-swatch1;
         display: table;
         padding: 20px;
+        -webkit-box-shadow: 3px 3px 0 1px fade(@color-swatch4,10%);;
+    	box-shadow: 3px 3px 0 1px fade(@color-swatch4,10%);
     }
     h3 span {
         background-color:@color-swatch1;
         display: table;
         padding: 20px;
+        -webkit-box-shadow: 3px 3px 0 1px fade(@color-swatch4,10%);;
+    	box-shadow: 3px 3px 0 1px fade(@color-swatch4,10%);
     }
 	.spare {
 	    display: inline-block;
@@ -211,8 +216,8 @@ header.bk-header {
 }
 
 .widget.feature button {
-	color:@font-swatch4-color;
-	background-color:@color-swatch7;
+	color:@font-swatch6-color;
+	background-color:@color-swatch3;
 }
 
 .widget.feature .feature-bgimg .content button.btn {
@@ -225,7 +230,7 @@ header.bk-header {
 	=============================== */
 
 .navbar {
-	background-color: @color-swatch3;
+	background-color: @color-swatch4;
 	position: relative;
 	.left {
 		float:left;
@@ -256,7 +261,7 @@ header.bk-header {
 }
 
 .widget .extendednavigation ul li.folder:after {
-	border-top-color:@font-swatch6-color;
+	border-top-color:@font-swatch6-color-hover;
 }
 
 .widget .extendednavigation ul li a {
@@ -276,21 +281,21 @@ header.bk-header {
 }
 
 .widget .extendednavigation ul > li.folder > .text {
-	color:@font-swatch6-color;
+	color:@font-swatch6-color-hover;
+}
+
+.widget .extendednavigation ul li a {
+	color: @font-swatch6-color-hover;
 }
 
 .widget .extendednavigation ul li a:hover {
 	background-color:@color-swatch4;
-	color:#ffffff;
+	color: @font-swatch6-color;
 }
 
 .widget .extendednavigation ul > li > a:hover {
-	background-color:@color-swatch4;
-	color:#ffffff;
-}
-
-.widget .extendednavigation ul li.folder .text:hover {
-	color:#ffffff;
+	background-color:@color-swatch3;
+	color: @font-swatch6-color;
 }
 
 .widget .extendednavigation ul li.folder .text:hover {
@@ -298,15 +303,20 @@ header.bk-header {
 }
 
 .widget .extendednavigation ul > li.folder .text:hover {
-	color:@font-swatch6-color!important;
+	color:@font-swatch6-color-hover!important;
 }
 
 .widget .extendednavigation ul li:hover ul li:hover {
-	color:#ffffff;
+	color:@font-swatch6-color-hover;
+}
+
+.widget .extendednavigation ul li:hover > ul > li:hover {
+	color:@font-swatch6-color;
 }
 
 .widget .extendednavigation ul li:hover ul li a:hover {
 	background-color:transparent;
+	color:@font-swatch6-color;
 }
 
 /*	===============================
@@ -436,6 +446,7 @@ header.bk-header {
 	font-weight:700;
 	font-size:14px;
 	padding: 0px 5px 3px 5px;
+	text-shadow: 3px 3px 0 fade(@color-swatch4,10%);
 }
 
 .menu-item-promoted {
@@ -741,7 +752,7 @@ button.btn:hover, .contactform button.btn:hover, .blog-search-submit-button:hove
 }
 
 .widget.paypalbuynow .widget.button.paypal:hover, .widget.tweet a:hover, .widget.tweet a:active, .widget.socialicons span a:hover {
-	background-color:lighten(@color-swatch4,10%);
+	background-color:lighten(@color-swatch4,20%);
 }
 
 .widget.dropbox button:hover {
@@ -875,7 +886,7 @@ textarea.message {
 	color:@font-swatch5-color; 
 	line-height:@font-swatch5-line-height; 
 	letter-spacing: @font-swatch5-letter-spacing; 
-	font-size: @font-swatch5-font-size;
+	font-size: bkscale(@font-swatch5-font-size,1.1);
 }
 
 /* ===============================
@@ -1149,10 +1160,10 @@ footer .widget.profile .bk-profile-socialicons span a {
 		position: absolute;
 		width: 26px;
 		height: 3px;
-		background: @color-swatch4;
+		background: @color-swatch1;
 		top: 0;
 		right: 0;
-		box-shadow: 0 6px 0 @color-swatch4, 0 12px 0 @color-swatch4;
+		box-shadow: 0 6px 0 @color-swatch1, 0 12px 0 @color-swatch1;
 		margin: 0px auto;
 		display: table;
 		left: 0;
@@ -1217,9 +1228,6 @@ footer .widget.profile .bk-profile-socialicons span a {
 		float: left;
 		width: 100%;
 	}
-	.extendednavigation ul {
-		background-color:@color-swatch3;
-	}
 	.widget.feature .feature-bgimg .content {
 		height:500px;
 	}
@@ -1247,10 +1255,6 @@ footer .widget.profile .bk-profile-socialicons span a {
 		width: 90%;
 		margin: 0 5%;
 	}
-	.widget .extendednavigation ul li a:hover, .widget .extendednavigation ul li.folder .text:hover {
-		background-color:transparent;
-		color:@font-swatch7-color;
-	}
 	.bk-pt-default .navbar .left {
 		margin: 10px 0px 0px 0px;
 	}
@@ -1272,9 +1276,6 @@ footer .widget.profile .bk-profile-socialicons span a {
 	header.bk-header {
 		padding:20px 0px 40px 0px;
 	}
-	.widget .extendednavigation ul li:hover ul {
-		background-color:@color-swatch3;
-	}
 	.bk-pt-default .widget .extendednavigation ul li.folder:after {
 		border-top-color: @color-swatch1;
 	}
@@ -1292,6 +1293,14 @@ footer .widget.profile .bk-profile-socialicons span a {
 		width: 40px;
 		height: 40px;
 	}
+	.widget .extendednavigation ul li:hover {
+		background-color:transparent;
+		color:@font-swatch6-color-hover;
+	}
+	.widget .extendednavigation ul li a:hover {
+		background-color:transparent;
+		color:@font-swatch6-color-hover;
+	}
 }	
 
 @media only screen and (max-width: 480px) {
@@ -1300,8 +1309,8 @@ footer .widget.profile .bk-profile-socialicons span a {
         line-height: bkscale(@font-swatch8-line-height, 0.5);
     }
     .widget.feature h3 {
-        font-size: bkscale(@font-swatch9-font-size, 0.4);
-        line-height: bkscale(@font-swatch9-line-height, 0.4);
+        font-size: bkscale(@font-swatch9-font-size, 0.6);
+        line-height: bkscale(@font-swatch9-line-height, 0.6);
         margin-bottom:20px;
     }
 	.search-term {
@@ -1342,6 +1351,7 @@ footer .widget.profile .bk-profile-socialicons span a {
 		box-shadow: 2px 2px 0px 1px rgba(218,218,218,1);
 		background-color:@color-swatch4;
 		color:@font-swatch6-color-hover;
+		padding: 18px 10px 18px 38px;
 		&:hover {
 			background-color:lighten(@color-swatch4,10%);
 		}
@@ -1353,7 +1363,6 @@ footer .widget.profile .bk-profile-socialicons span a {
 		height: 400px;
 	}
 	.navbar {
-		background-color:@color-swatch3;
 		margin-top:0;
 		padding:0;
 	}
@@ -1390,8 +1399,8 @@ footer .widget.profile .bk-profile-socialicons span a {
 		padding: 30px 10px;
 	}
 	.widget.gallery ul li {
-		width:100%;
-		padding-bottom:0;
+		width: 100%;
+		padding-bottom: 100%;
 	}
 	.widget.responsiveslideshow .slideshow-widget .btn-prev:after, .widget.responsiveslideshow .slideshow-widget .btn-next:after {
 		top:0;
